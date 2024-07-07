@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: black;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    height: 50px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+button {
+    padding: 20px 50px;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: black;
+    border-radius: 100px;
+}
+button:hover {
+    color: white;
+    background-color: black;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
