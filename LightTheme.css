@@ -7,7 +7,7 @@ p, h1 {
     color: black;
     text-align: center;
     font-family: "Comic Sans MS";
-    height: 50px;
+    height: 10%;
 }
 h2, h3 {
     color: black;
@@ -15,37 +15,40 @@ h2, h3 {
     font-family: "Comic Sans MS";
     font-size: 20px;
     text-align: center;
+    position: relative;
+    top: 400px;
 }
 h2 {
     size: 100px;
 }
 button {
-    padding: 20px 50px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    background-color: green;
-    cursor: pointer;
     color: white;
+    background-color: green; /*color*/
+
+    height: 80px;
+    width: 180px; /*resize*/
+
     font-family: "Comic Sans MS";
-    font-size: 30px;
-    letter-spacing: 3px;
-    position: relative;
-}
-.btn {
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+    font-size: 25px; /*font*/
+
+    letter-spacing: 2px; /*spasing*/
+
+    border: none;
+    border-radius: 15px;/*border*/
+
+    position: absolute;
+    left: 40%;
+    right: 45%;
+    top: 40%;
 }
 .container {
     position: relative;
     margin-left: 20%;
-    width: 680px;
+    width: 60%;
 }
 .entryarea{
     position: relative;
-    height: 80px;
+    height: 30%;
 }
 input {
     text-decoration-color: black;
@@ -67,7 +70,7 @@ input:hover + .labelline {
 }
 .entercity {
     color: green;
-    font-size: 50px;
+    font-size: 30%;
 }
 .container2 {
     display: flex;
